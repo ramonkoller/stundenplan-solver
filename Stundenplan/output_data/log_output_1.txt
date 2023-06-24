@@ -1,0 +1,140 @@
+rooms imported 2022-06-03 13:28:34.435006
+occasions imported 2022-06-03 13:28:34.435006
+lecturers imported 2022-06-03 13:28:34.435006
+classes imported 2022-06-03 13:28:34.435006
+Generate variables 2022-06-03 13:28:34.435006
+Variables are added 2022-06-03 13:28:37.559988
+Constraints All Blocks Planned are added 2022-06-03 13:28:37.858089
+Constraints Lecturers No Collisions are added 2022-06-03 13:28:41.801472
+Constraints Classes No Collisions are added 2022-06-03 13:28:45.793870
+Constraints Rooms No Collisions are added 2022-06-03 13:28:46.551657
+Constraints Blocks Planned Fix are added 2022-06-03 13:28:46.578239
+Constraints Rooms Planned Fix are added 2022-06-03 13:28:46.850106
+Constraints Lecturers Priorities are added 2022-06-03 13:28:47.855198
+Constraints Classes Priorities are added 2022-06-03 13:28:50.174981
+Constraints One Block Per Day are added 2022-06-03 13:28:50.550195
+Constraints Classes Compact are added 2022-06-03 13:29:01.399883
+Constraints Lecturers Compact are added 2022-06-03 13:29:07.094394
+Constraints Evening Or Saturday School are added 2022-06-03 13:29:07.266257
+Solver begins 2022-06-03 13:29:07.266257
+Version identifier: 20.1.0.0 | 2020-11-10 | 9bedb6d68
+CPXPARAM_Read_DataCheck                          1
+Tried aggregator 2 times.
+MIP Presolve eliminated 5213 rows and 34974 columns.
+MIP Presolve modified 2521 coefficients.
+Aggregator did 1 substitutions.
+Reduced MIP has 10270 rows, 116612 columns, and 943038 nonzeros.
+Reduced MIP has 112151 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.64 sec. (754.95 ticks)
+Found incumbent of value 1.2290620e+07 after 1.66 sec. (1751.41 ticks)
+Tried aggregator 1 time.
+Detecting symmetries...
+Reduced MIP has 10270 rows, 116612 columns, and 943038 nonzeros.
+Reduced MIP has 116612 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.83 sec. (870.41 ticks)
+Probing time = 0.09 sec. (30.16 ticks)
+Clique table members: 201309.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 8 threads.
+Root relaxation solution time = 2.92 sec. (1530.93 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                       1.22906e+07     2000.0000            99.98%
+*     0+    0                       1.17578e+07     2000.0000            99.98%
+*     0+    0                      2186580.0000     2000.0000            99.91%
+*     0+    0                      2185380.0000     2000.0000            99.91%
+*     0+    0                      2085380.0000     2000.0000            99.90%
+*     0+    0                      2044760.0000     2000.0000            99.90%
+*     0+    0                      1964610.0000     2000.0000            99.90%
+      0     0    94487.5000   446  1964610.0000    94487.5000     4048   95.19%
+*     0+    0                       291100.0000    94487.5000            67.54%
+      0     0    94929.0909   260   291100.0000     Cuts: 316     5533   67.39%
+      0     0    95090.0000   458   291100.0000     Cuts: 230     6545   67.33%
+      0     0    95152.5000   301   291100.0000     Cuts: 156     7581   67.31%
+*     0+    0                       281400.0000    95152.5000            66.19%
+*     0+    0                       268510.0000    95152.5000            64.56%
+*     0+    0                       267910.0000    95152.5000            64.48%
+*     0+    0                       198660.0000    95152.5000            52.10%
+      0     0  -1.00000e+75     0   198660.0000    95152.5000     7581   52.10%
+      0     0    95295.0000   452   198660.0000     Cuts: 119     9232   52.03%
+      0     0    95295.0000   380   198660.0000     Cuts: 104    10229   52.03%
+*     0+    0                       100480.0000    95295.0000             5.16%
+      0     0    95373.3333   563   100480.0000      Cuts: 86    11103    5.08%
+*     0+    0                        96790.0000    95373.3333             1.46%
+*     0+    0                        96190.0000    95373.3333             0.85%
+      0     0  -1.00000e+75     0    96190.0000    95373.3333    11103    0.85%
+
+Repeating presolve.
+Tried aggregator 3 times.
+MIP Presolve eliminated 7129 rows and 85490 columns.
+MIP Presolve modified 32006 coefficients.
+Aggregator did 15 substitutions.
+Reduced MIP has 3126 rows, 31096 columns, and 182884 nonzeros.
+Reduced MIP has 31096 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 1.02 sec. (1062.66 ticks)
+Tried aggregator 1 time.
+Detecting symmetries...
+MIP Presolve eliminated 4 rows and 213 columns.
+MIP Presolve modified 6 coefficients.
+Reduced MIP has 3122 rows, 30883 columns, and 182297 nonzeros.
+Reduced MIP has 30883 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.13 sec. (188.51 ticks)
+Represolve time = 1.52 sec. (1748.02 ticks)
+Probing time = 0.03 sec. (11.11 ticks)
+Clique table members: 3590.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 8 threads.
+Root relaxation solution time = 0.42 sec. (376.51 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                        96190.0000    95373.3333             0.85%
+      0     0    95400.0000   536    96190.0000    95400.0000    14808    0.82%
+      0     0    95566.6667   391    96190.0000      Cuts: 86    15220    0.65%
+      0     0    95677.6596   463    96190.0000     Cuts: 123    16138    0.53%
+      0     0    95707.5556   466    96190.0000      Cuts: 63    16384    0.50%
+      0     0    95707.5556   417    96190.0000      Cuts: 44    16489    0.50%
+      0     0    95710.6667   420    96190.0000      Cuts: 27    16563    0.50%
+      0     0    95732.5000   325    96190.0000      Cuts: 16    16668    0.48%
+      0     0    95736.6667   415    96190.0000      Cuts: 45    17021    0.47%
+      0     2    95736.6667   277    96190.0000    95736.6667    17143    0.47%
+Elapsed time = 28.16 sec. (24950.02 ticks, tree = 0.02 MB, solutions = 15)
+      4     4        cutoff          96190.0000    95736.6667    20004    0.47%
+     13     7    95893.3333   258    96190.0000    95736.6667    22374    0.47%
+     37     9    95890.0000   260    96190.0000    95736.6667    25964    0.47%
+    118    41        cutoff          96190.0000    95736.6667    31414    0.47%
+    191    62        cutoff          96190.0000    95736.6667    34885    0.47%
+    277   133    96041.6667   175    96190.0000    95736.6667    43743    0.47%
+*   322   115      integral     0    95890.0000    95736.6667    46782    0.16%
+    373    71    95861.0000   275    95890.0000    95799.9001    49388    0.09%
+
+GUB cover cuts applied:  47
+Clique cuts applied:  28
+Cover cuts applied:  47
+Implied bound cuts applied:  280
+Flow cuts applied:  2
+Mixed integer rounding cuts applied:  19
+Zero-half cuts applied:  113
+Lift and project cuts applied:  3
+Gomory fractional cuts applied:  13
+
+Root node processing (before b&c):
+  Real time             =   28.05 sec. (24911.21 ticks)
+Parallel b&c, 8 threads:
+  Real time             =    4.58 sec. (1874.94 ticks)
+  Sync time (average)   =    1.30 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =   32.63 sec. (26786.15 ticks)
+Solver has ended 2022-06-03 13:29:40.073798
+Objective: 95890.0
+schedulded_occasions_1.json was written
+schedulded_penalties_1.json was written
+schedulded_lecturers_1.xlsx was written
+schedulded_classes_1.xlsx was written
+schedulded_rooms_1.xlsx was written

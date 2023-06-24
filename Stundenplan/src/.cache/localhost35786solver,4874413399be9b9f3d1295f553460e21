@@ -1,0 +1,9 @@
+status: 200
+server: Werkzeug/2.2.2 Python/3.7.11
+date: Fri, 09 Dec 2022 18:07:03 GMT
+content-type: text/html; charset=utf-8
+content-length: 24
+connection: close
+content-location: http://localhost:35786/solver/
+
+solver has been finished

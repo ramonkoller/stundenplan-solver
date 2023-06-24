@@ -1,0 +1,13 @@
+status: 308
+content-type: text/html; charset=utf-8
+content-length: 264
+location: http://localhost:7411/solver/
+server: Werkzeug/2.0.2 Python/3.7.11
+date: Wed, 25 May 2022 09:12:10 GMT
+-x-permanent-redirect-url: http://localhost:7411/solver/
+content-location: http://localhost:7411/solver
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>Redirecting...</title>
+<h1>Redirecting...</h1>
+<p>You should be redirected automatically to target URL: <a href="http://localhost:7411/solver/">http://localhost:7411/solver/</a>. If not click the link.

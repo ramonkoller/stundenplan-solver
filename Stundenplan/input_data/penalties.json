@@ -1,0 +1,19 @@
+{
+	"all_blocks_planned_fix": true,
+	"lectures_collisions_fix": true,
+	"classes_collisions_fix": true,
+	"rooms_collisions_fix": true,
+	"lectures_priorities_fix": false,
+	"classes_priorities_fix": false,
+	"one_block_per_day_fix": false,
+	"all_blocks_planned_penalty": 100000,
+	"lectures_collisions_penalty": 100000,
+	"classes_collisions_penalty": 100000,
+	"rooms_collisions_penalty": 100000,
+	"lectures_priorities_penalty_list": [0, 0, 0, 10, 1000, 1000, 10000],
+	"classes_priorities_penalty_list": [0, 0, 0, 10, 1000, 1000, 10000],
+	"one_block_per_day_penalty": 1000,
+	"classes_compact_penalty": 300,
+	"lectures_compact_penalty": 300,
+	"evening_saturday_school_penalty": 200
+}

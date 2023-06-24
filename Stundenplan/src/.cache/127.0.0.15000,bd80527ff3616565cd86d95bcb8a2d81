@@ -1,0 +1,8 @@
+status: 200
+content-type: application/json
+content-length: 29
+server: Werkzeug/2.0.2 Python/3.7.11
+date: Fri, 13 May 2022 09:27:59 GMT
+content-location: http://127.0.0.1:5000/
+
+{"title": "IDMS Example API"}

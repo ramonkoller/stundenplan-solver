@@ -1,0 +1,4 @@
+flask-api==3.0.post1
+httplib2==0.20.4
+docplex==2.23.222
+xlsxwriter==3.0.1

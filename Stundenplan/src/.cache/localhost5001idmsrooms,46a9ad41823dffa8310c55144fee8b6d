@@ -1,0 +1,13 @@
+status: 308
+content-type: text/html; charset=utf-8
+content-length: 272
+location: http://localhost:5001/idms/rooms/
+server: Werkzeug/2.0.2 Python/3.7.11
+date: Fri, 13 May 2022 09:52:22 GMT
+-x-permanent-redirect-url: http://localhost:5001/idms/rooms/
+content-location: http://localhost:5001/idms/rooms
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>Redirecting...</title>
+<h1>Redirecting...</h1>
+<p>You should be redirected automatically to target URL: <a href="http://localhost:5001/idms/rooms/">http://localhost:5001/idms/rooms/</a>. If not click the link.
